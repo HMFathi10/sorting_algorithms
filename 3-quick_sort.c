@@ -73,8 +73,6 @@ void lomuto_sort(int *array, size_t size, int left, int right)
 	}
 }
 
-void quick_sort(int *array, size_t size);
-
 /**
  * quick_sort - sort the array of ints in ascending
  *              order using quicksort algorithm.
