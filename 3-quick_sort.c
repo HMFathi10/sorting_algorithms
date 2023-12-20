@@ -14,8 +14,6 @@ void swap_ints(int *a, int *b)
 	*b = tmp;
 }
 
-int lomuto_partition(int *array, size_t size, int left, int right);
-
 /**
  * lomuto_partition - Order a subset of an array of integers using
  *                    the lomuto partition method ==> last element as pivot.
